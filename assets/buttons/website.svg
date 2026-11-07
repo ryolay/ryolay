@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="42" viewBox="0 0 132 42" role="img" aria-label="tobill.ch">
+<title>tobill.ch</title>
+<style>text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3240"/><stop offset="1" stop-color="#1a1f29"/></linearGradient></defs>
+<rect width="132" height="42" rx="21.0" fill="url(#g)"/>
+<rect x="0.5" y="0.5" width="131" height="41" rx="20.5" fill="none" stroke="#ffffff" stroke-opacity="0.16"/>
+<g transform="translate(17 10)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><path d="M10 1a13 13 0 0 0 0 18 13 13 0 0 0 0-18M1 10h18"/></g>
+<text x="48" y="26.5" font-size="15" font-weight="600" fill="#ffffff">tobill.ch</text>
+</svg>

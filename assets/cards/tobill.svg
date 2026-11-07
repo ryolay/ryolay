@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="250" viewBox="0 0 840 250" role="img" aria-label="To Bill: invoicing and accounting for Swiss SMEs. Web, iOS and Android apps, designed, built and run end to end.">
+<title>To Bill: invoicing and accounting for Swiss SMEs. Web, iOS and Android apps, designed, built and run end to end.</title>
+<style>
+  .bg { fill: #ffffff; }
+  .bd { stroke: #d0d7de; }
+  .fg { fill: #1f2328; }
+  .mu { fill: #59636e; }
+  .chip { fill: #f6f8fa; stroke: #d0d7de; }
+  .ink { fill: #1f2328; }
+  .tile { fill: #f6f8fa; stroke: #d8dee4; }
+  .soft { fill: #eef1f5; }
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; }
+    .bd { stroke: #30363d; }
+    .fg { fill: #e6edf3; }
+    .mu { fill: #9198a1; }
+    .chip { fill: #161b22; stroke: #30363d; }
+    .ink { fill: #e6edf3; }
+    .tile { fill: #161b22; stroke: #262c36; }
+    .soft { fill: #1b2230; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+  }
+
+  .paper { fill: #ffffff; stroke: #d0d7de; }
+  .paper2 { fill: #eef1f5; }
+  .line { fill: #d8dee4; }
+  .dark { fill: #1f2328; }
+  .acc { fill: #e11d48; }
+  @media (prefers-color-scheme: dark) {
+    .paper { fill: #f8fafc; stroke: #f8fafc; }
+    .paper2 { fill: #2a3242; }
+    .acc { fill: #ff5a4e; }
+  }
+  @keyframes stamp {
+    0%, 12% { opacity: 0; transform: scale(1.8) rotate(-14deg); }
+    18% { opacity: 1; transform: scale(0.94) rotate(-14deg); }
+    22%, 86% { opacity: 1; transform: scale(1) rotate(-14deg); }
+    94%, 100% { opacity: 0; transform: scale(1) rotate(-14deg); }
+  }
+  .stamp { transform-box: fill-box; transform-origin: center; transform: rotate(-14deg); animation: stamp 7s ease-out infinite; }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+  .float { animation: float 6s ease-in-out infinite; }
+</style>
+<defs>
+  <radialGradient id="glow" cx="1" cy="0" r="1">
+    <stop offset="0" stop-color="#ef4444" stop-opacity="0.20"/>
+    <stop offset="0.55" stop-color="#ef4444" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="clip"><rect x="0.5" y="0.5" width="839" height="249" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="840" height="250" class="bg"/>
+  <rect width="840" height="250" fill="url(#glow)"/>
+  <rect x="0" y="0" width="840" height="3" fill="#ef4444" fill-opacity="0.9"/>
+</g>
+<rect x="0.5" y="0.5" width="839" height="249" rx="18" fill="none" class="bd"/>
+<rect x="32" y="32" width="64" height="64" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+<image href="data:image/png;base64,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" x="38" y="38" width="52" height="52"/>
+<text x="114" y="52" font-size="11.5" font-weight="700" letter-spacing="1.5" class="mu">FEATURED · SAAS</text>
+<text x="113" y="86" font-size="30" font-weight="800" letter-spacing="-0.6" class="fg">To Bill</text>
+<text x="32" y="134" font-size="17.5" font-weight="600" class="fg">Invoicing and accounting for Swiss SMEs.</text>
+<text x="32" y="162" font-size="15" class="mu">Web, iOS and Android apps, designed, built and run end to end.</text>
+<rect x="32" y="192" width="72" height="24" rx="12.0" class="chip"/>
+<text x="67.9" y="208.3" text-anchor="middle" font-size="12" font-weight="600" class="mu">Web app</text>
+<rect x="111.73520000000002" y="192" width="101" height="24" rx="12.0" class="chip"/>
+<text x="162.4" y="208.3" text-anchor="middle" font-size="12" font-weight="600" class="mu">iOS &amp; Android</text>
+<rect x="220.98080000000002" y="192" width="116" height="24" rx="12.0" class="chip"/>
+<text x="278.9" y="208.3" text-anchor="middle" font-size="12" font-weight="600" class="mu">Made in Geneva</text>
+<rect x="344.72720000000004" y="192" width="80" height="24" rx="12.0" fill="#ff5a4e" fill-opacity="0.12" stroke="#ff5a4e" stroke-opacity="0.45"/>
+<text x="384.7" y="208.3" text-anchor="middle" font-size="12" font-weight="600" fill="#e11d48" class="acc">tobill.ch ↗</text>
+<g transform="translate(598 34) rotate(-5)">
+  <g class="float">
+    <rect x="16" y="12" width="196" height="196" rx="10" class="paper2"/>
+    <rect x="0" y="0" width="196" height="196" rx="10" class="paper"/>
+    <rect x="16" y="16" width="38" height="12" rx="3" fill="#da291c"/>
+    <rect x="128" y="16" width="52" height="5" rx="2.5" class="line"/>
+    <rect x="140" y="25" width="40" height="5" rx="2.5" class="line"/>
+    <text x="16" y="50" font-size="9" font-weight="700" letter-spacing="1.4" fill="#59636e">INVOICE</text>
+    <rect x="16" y="60" width="96" height="5" rx="2.5" class="line"/><rect x="150" y="60" width="30" height="5" rx="2.5" class="line"/>
+    <rect x="16" y="72" width="78" height="5" rx="2.5" class="line"/><rect x="156" y="72" width="24" height="5" rx="2.5" class="line"/>
+    <rect x="16" y="84" width="88" height="5" rx="2.5" class="line"/><rect x="152" y="84" width="28" height="5" rx="2.5" class="line"/>
+    <text x="180" y="108" text-anchor="end" font-size="11" font-weight="700" fill="#1f2328">CHF 1’280.00</text>
+    <path d="M6 122H190" stroke="#8c959f" stroke-dasharray="3 3"/>
+    <g transform="translate(16 134)"><rect x="0" y="12" width="3.4" height="3.4" class="dark"/><rect x="0" y="16" width="3.4" height="3.4" class="dark"/><rect x="0" y="24" width="3.4" height="3.4" class="dark"/><rect x="4" y="12" width="3.4" height="3.4" class="dark"/><rect x="4" y="16" width="3.4" height="3.4" class="dark"/><rect x="4" y="24" width="3.4" height="3.4" class="dark"/><rect x="4" y="28" width="3.4" height="3.4" class="dark"/><rect x="8" y="12" width="3.4" height="3.4" class="dark"/><rect x="8" y="16" width="3.4" height="3.4" class="dark"/><rect x="8" y="20" width="3.4" height="3.4" class="dark"/><rect x="8" y="28" width="3.4" height="3.4" class="dark"/><rect x="12" y="0" width="3.4" height="3.4" class="dark"/><rect x="12" y="16" width="3.4" height="3.4" class="dark"/><rect x="12" y="24" width="3.4" height="3.4" class="dark"/><rect x="12" y="32" width="3.4" height="3.4" class="dark"/><rect x="12" y="36" width="3.4" height="3.4" class="dark"/><rect x="12" y="40" width="3.4" height="3.4" class="dark"/><rect x="16" y="0" width="3.4" height="3.4" class="dark"/><rect x="16" y="8" width="3.4" height="3.4" class="dark"/><rect x="16" y="20" width="3.4" height="3.4" class="dark"/><rect x="16" y="28" width="3.4" height="3.4" class="dark"/><rect x="16" y="32" width="3.4" height="3.4" class="dark"/><rect x="16" y="36" width="3.4" height="3.4" class="dark"/><rect x="20" y="0" width="3.4" height="3.4" class="dark"/><rect x="20" y="4" width="3.4" height="3.4" class="dark"/><rect x="20" y="12" width="3.4" height="3.4" class="dark"/><rect x="20" y="16" width="3.4" height="3.4" class="dark"/><rect x="20" y="28" width="3.4" height="3.4" class="dark"/><rect x="24" y="4" width="3.4" height="3.4" class="dark"/><rect x="24" y="12" width="3.4" height="3.4" class="dark"/><rect x="24" y="16" width="3.4" height="3.4" class="dark"/><rect x="24" y="24" width="3.4" height="3.4" class="dark"/><rect x="24" y="28" width="3.4" height="3.4" class="dark"/><rect x="24" y="32" width="3.4" height="3.4" class="dark"/><rect x="28" y="8" width="3.4" height="3.4" class="dark"/><rect x="28" y="24" width="3.4" height="3.4" class="dark"/><rect x="28" y="36" width="3.4" height="3.4" class="dark"/><rect x="32" y="12" width="3.4" height="3.4" class="dark"/><rect x="32" y="32" width="3.4" height="3.4" class="dark"/><rect x="32" y="36" width="3.4" height="3.4" class="dark"/><rect x="36" y="12" width="3.4" height="3.4" class="dark"/><rect x="36" y="16" width="3.4" height="3.4" class="dark"/><rect x="36" y="20" width="3.4" height="3.4" class="dark"/><rect x="36" y="24" width="3.4" height="3.4" class="dark"/><rect x="36" y="28" width="3.4" height="3.4" class="dark"/><rect x="36" y="36" width="3.4" height="3.4" class="dark"/><rect x="36" y="40" width="3.4" height="3.4" class="dark"/><rect x="40" y="12" width="3.4" height="3.4" class="dark"/><rect x="40" y="20" width="3.4" height="3.4" class="dark"/><rect x="40" y="24" width="3.4" height="3.4" class="dark"/><rect x="0.8" y="0.8" width="10.4" height="10.4" fill="none" stroke="#1f2328" stroke-width="1.6"/><rect x="3.6" y="3.6" width="4.8" height="4.8" class="dark"/><rect x="32.8" y="0.8" width="10.4" height="10.4" fill="none" stroke="#1f2328" stroke-width="1.6"/><rect x="35.6" y="3.6" width="4.8" height="4.8" class="dark"/><rect x="0.8" y="32.8" width="10.4" height="10.4" fill="none" stroke="#1f2328" stroke-width="1.6"/><rect x="3.6" y="35.6" width="4.8" height="4.8" class="dark"/>
+      <rect x="16" y="16" width="12" height="12" fill="#ffffff"/><rect x="17.5" y="17.5" width="9" height="9" fill="#da291c"/>
+      <rect x="21.2" y="19" width="1.6" height="6" fill="#fff"/><rect x="19" y="21.2" width="6" height="1.6" fill="#fff"/>
+    </g>
+    <rect x="72" y="138" width="70" height="5" rx="2.5" class="line"/>
+    <rect x="72" y="150" width="54" height="5" rx="2.5" class="line"/>
+    <rect x="72" y="162" width="62" height="5" rx="2.5" class="line"/>
+    <g class="stamp">
+      <rect x="104" y="30" width="76" height="30" rx="5" fill="#ffffff" fill-opacity="0.6" stroke="#1a7f37" stroke-width="2.5"/>
+      <text x="142" y="51" text-anchor="middle" font-size="16" font-weight="800" letter-spacing="2.5" fill="#1a7f37">PAID</text>
+    </g>
+  </g>
+</g>
+</svg>
