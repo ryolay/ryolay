@@ -60,7 +60,3 @@ Happy to talk about SaaS, product engineering or open-source tools.
   <a href="mailto:c.dslvp@gmail.com"><img src="assets/buttons/email.svg" height="42" alt="Email me"></a>&nbsp;
   <a href="https://tobill.ch"><img src="assets/buttons/website.svg" height="42" alt="tobill.ch"></a>
 </p>
-
-<p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by. Geneva, Switzerland.">
-</p>

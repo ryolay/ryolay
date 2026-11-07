@@ -479,27 +479,6 @@ def build_toolkit() -> None:
     write("toolkit.svg", svg_doc(W, H, alt, "\n".join(tiles), css))
 
 
-# ---------------------------------------------------------------- footer
-def build_footer() -> None:
-    W, H = 840, 110
-    css = f"""
-  @keyframes shine {{ 0% {{ transform: translateX(-160px); }} 100% {{ transform: translateX(160px); }} }}
-  .shine {{ animation: shine 2.8s ease-in-out infinite alternate; }}
-"""
-    body = f"""<defs>
-  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{RED_A}" stop-opacity="0"/><stop offset="0.5" stop-color="{RED_A}"/><stop offset="1" stop-color="#ff2d6f" stop-opacity="0"/></linearGradient>
-  <clipPath id="bar"><rect x="300" y="14" width="240" height="3" rx="1.5"/></clipPath>
-</defs>
-<rect x="300" y="14" width="240" height="3" rx="1.5" class="soft"/>
-<g clip-path="url(#bar)"><rect class="shine" x="340" y="14" width="160" height="3" fill="url(#acc)"/></g>
-<text x="{W/2}" y="58" text-anchor="middle" font-size="19" font-weight="700" class="fg">Thanks for stopping by.</text>
-<g transform="translate({W/2 - 78} 74)">
-  <rect width="16" height="16" rx="3.5" fill="#da291c"/><rect x="6.6" y="3" width="2.8" height="10" fill="#fff"/><rect x="3" y="6.6" width="10" height="2.8" fill="#fff"/>
-</g>
-<text x="{W/2 + 12}" y="87" text-anchor="middle" font-size="13.5" class="mu">Geneva, Switzerland</text>"""
-    write("footer.svg", svg_doc(W, H, "Thanks for stopping by. Geneva, Switzerland.", body, css))
-
-
 if __name__ == "__main__":
     build_hero()
     build_buttons()
@@ -508,4 +487,3 @@ if __name__ == "__main__":
     build_nebula_card()
     build_principles()
     build_toolkit()
-    build_footer()
